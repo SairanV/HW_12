@@ -9,6 +9,5 @@ namespace HW_12
     public class Coupe : Car
     {
         public Coupe(string model, int speed) : base(model, speed) { }
-        // Дополнительные свойства и методы для легкового автомобиля
     }
 }

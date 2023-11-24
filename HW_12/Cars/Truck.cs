@@ -9,6 +9,5 @@ namespace HW_12
     public class Truck : Car
     {
         public Truck(string model, int speed) : base(model, speed) { }
-        // Дополнительные свойства и методы для грузовика
     }
 }

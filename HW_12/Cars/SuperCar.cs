@@ -9,6 +9,5 @@ namespace HW_12
     public class SuperCar : Car
     {
         public SuperCar(string model, int speed) : base(model, speed) { }
-        // Дополнительные свойства и методы для спортивного автомобиля
     }
 }

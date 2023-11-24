@@ -29,7 +29,6 @@ namespace HW_12
         /// </summary>
         public void StartRace()
         {
-            // Вызов события начала гонки
             OnRaceStarted();
 
             while (true)
@@ -38,10 +37,8 @@ namespace HW_12
                 {
                     car.Move();
 
-                    // Проверка на финиш
                     if (car.Position >= 100)
                     {
-                        // Вызов события завершения гонки
                         OnRaceEnded(car.Model);
                         return;
                     }
